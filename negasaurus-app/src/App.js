@@ -1,6 +1,6 @@
-import ProfileCard from './components/ProfileCard';
+//import ProfileCard from './components/ProfileCard';
 //import './App.css';
-import Button from './components/Button';
+//import Button from './components/Button';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -14,26 +14,26 @@ import NotFound from './pages/NotFound';
 
 
 
-const members = [
-  {
-    id: 1, name: 'นทนันทน์ แสงเทียน', nickname: 'นท',
-    major: 'เทคโนโลยีสารสนเทศ', favorites: ['ก๋วยเตี๋ยว', 'หมา']
-  },
-  {
-    id: 2, name: 'เจษฎาพร อมรจิตรเวชกุล', nickname: 'โอเว่น',
-    major: 'เทคโนโลยีสารสนเทศ', favorites: ['โค้ก', 'แมว']
-  },
-  {
-    id: 3, name: 'สมหญิง ใจดี', nickname: 'ฝน',
-    major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชาเขียว', 'แมว']
-  }
-  // 👉 เพิ่มสมาชิกคนอื่น ๆ ของกลุ่มที่นี่
-];
-const movies = [
-  { id: 1, title: 'Interstellar', genre: 'Sci-Fi',    year: 2014 },
-  { id: 2, title: 'Your Name',    genre: 'Animation', year: 2016 },
-  { id: 3, title: 'Parasite',     genre: 'Thriller',  year: 2019 },
-];
+// const members = [
+//   {
+//     id: 1, name: 'นทนันทน์ แสงเทียน', nickname: 'นท',
+//     major: 'เทคโนโลยีสารสนเทศ', favorites: ['ก๋วยเตี๋ยว', 'หมา']
+//   },
+//   {
+//     id: 2, name: 'เจษฎาพร อมรจิตรเวชกุล', nickname: 'โอเว่น',
+//     major: 'เทคโนโลยีสารสนเทศ', favorites: ['โค้ก', 'แมว']
+//   },
+//   {
+//     id: 3, name: 'สมหญิง ใจดี', nickname: 'ฝน',
+//     major: 'เทคโนโลยีสารสนเทศ', favorites: ['ชาเขียว', 'แมว']
+//   }
+//   // 👉 เพิ่มสมาชิกคนอื่น ๆ ของกลุ่มที่นี่
+// ];
+// const movies = [
+//   { id: 1, title: 'Interstellar', genre: 'Sci-Fi',    year: 2014 },
+//   { id: 2, title: 'Your Name',    genre: 'Animation', year: 2016 },
+//   { id: 3, title: 'Parasite',     genre: 'Thriller',  year: 2019 },
+// ];
 
 // function App() {
 //   return (
